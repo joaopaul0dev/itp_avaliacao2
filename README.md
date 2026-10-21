@@ -13,31 +13,12 @@ Este projeto consiste em um programa desenvolvido em linguagem C para controlar 
 
 A sala pode ter de 1 a 6 filas, cada uma com 8 assentos. Os assentos são representados por uma matriz de inteiros, na qual o valor `0` indica um assento livre e o valor `1` indica um assento reservado.
 
-O projeto utiliza matrizes, strings, funções, ponteiros e alocação dinâmica de memória, aplicando os conceitos estudados na disciplina.
-
 ## Funcionalidades
 
-- Cadastro do título da sessão.
-- Definição da quantidade de filas, entre 1 e 6.
-- Exibição do mapa de assentos com identificação visual dos lugares livres e reservados.
+- Cadastro da sessão.
+- Exibição do mapa de assentos.
 - Reserva de assentos disponíveis.
 - Cancelamento de reservas existentes.
-- Validação das posições informadas pelo usuário.
-- Impedimento de reservas duplicadas e cancelamentos de assentos livres.
-- Cálculo da quantidade de assentos livres em cada fila por meio de um vetor alocado dinamicamente.
-- Exibição do total de assentos, assentos livres, assentos reservados e porcentagem de ocupação.
-- Navegação pelo menu utilizando as setas do teclado e a tecla Enter.
-
-## Tecnologias e conceitos utilizados
-
-- **Linguagem:** C.
-- **Biblioteca:** ncurses, para interface interativa no terminal.
-- **Matriz:** representação dos assentos da sala.
-- **Strings:** armazenamento do título da sessão.
-- **Funções:** organização das operações do programa.
-- **Ponteiros:** preenchimento do vetor de assentos livres.
-- **Alocação dinâmica:** utilização de `malloc()` para reservar memória para o vetor de resultados.
-- **Gerenciamento de memória:** liberação da memória alocada com `free()`.
 
 ## Requisitos
 
@@ -45,13 +26,7 @@ Para compilar e executar o programa, são necessários:
 
 - Compilador GCC.
 - Biblioteca ncurses.
-- Terminal compatível com ncurses.
-
-### Instalação no Arch Linux
-
-```bash
-sudo pacman -S gcc ncurses
-```
+- Terminal compatível com ncurses.`
 
 ## Compilação e execução
 
@@ -103,30 +78,13 @@ Para iniciar o programa:
 - O programa solicita novamente uma entrada válida.
 - As posições fora dos limites da sala são rejeitadas sem acessar posições inválidas da matriz.
 
-### Teste 3 — Resumo da ocupação
-
-**Procedimento:**
-
-1. Configurar uma sala com `2` filas.
-2. Reservar três assentos.
-3. Selecionar a opção de exibir resumo.
-
-**Resultados esperados:**
-
-- Total de assentos: `16`.
-- Assentos reservados: `3`.
-- Assentos livres: `13`.
-- Ocupação: `18,75%`.
-
 ## Vídeo de apresentação
 
 **Link do YouTube:** A preencher após a publicação do vídeo.
 
-O vídeo apresentará o programa em execução, suas principais funcionalidades, a representação dos assentos na matriz, o uso do vetor dinâmico, os conceitos de ponteiros e gerenciamento de memória e os testes realizados.
 
 ## Referências
 
-- Material didático da disciplina Introdução às Técnicas de Programação (ITP), UFRN.
 - Documentação da biblioteca ncurses: https://invisible-island.net/ncurses/
 - Documentação da linguagem C e da biblioteca padrão: https://en.cppreference.com/w/c
 
