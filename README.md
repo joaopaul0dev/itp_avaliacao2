@@ -29,17 +29,12 @@ A sala suporta de 1 a 6 fileiras, cada uma com 8 assentos. Os assentos são repr
 
 ## Funcionalidades
 
-- Cadastro do título da sessão.
+- Cadastro da sessão.
 - Exibição do mapa de assentos.
 - Reserva de assentos disponíveis.
-- Cancelamento de reservas existentes.
-- Validação das posições informadas.
-- Resumo da ocupação da sala.
-- Contagem dinâmica dos assentos livres por fileira.
+- Cancelamento de reservas.
 
 ## Demonstração visual
-
-As imagens abaixo devem ser capturas reais do programa em execução.
 
 <div align="center">
 
@@ -63,7 +58,6 @@ As imagens abaixo devem ser capturas reais do programa em execução.
 
 </div>
 
-> **Importante:** adicione as três capturas de tela à pasta `assets/` com os nomes indicados. Enquanto esses arquivos não existirem no repositório, as imagens não serão exibidas.
 
 ## Conceitos de programação utilizados
 
@@ -87,6 +81,14 @@ No Arch Linux, instale as dependências com:
 
 ```bash
 sudo pacman -S gcc ncurses
+```
+Debian, Ubuntu, Mint e derivados
+```bash
+sudo apt install libncurses5-dev libncursesw5-dev
+```
+macOS
+```bash
+brew install ncurses
 ```
 
 ## Compilação e execução
