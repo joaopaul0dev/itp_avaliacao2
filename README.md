@@ -12,6 +12,8 @@ Sistema de gerenciamento de reservas desenvolvido em C com interface interativa 
 
 </div>
 
+## Identificação
+
 - **Aluno:** João Paulo de Medeiros Neto
 - **Projeto:** Opção 3 — Reserva de Assentos de uma Sessão
 - **Disciplina:** Introdução às Técnicas de Programação (ITP)
