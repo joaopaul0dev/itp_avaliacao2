@@ -282,9 +282,9 @@ int exibirMenu(const char *titulo) {
     while (1) {
         clear();
 
-        mvprintw(1, 2, "==================================");
+        
         mvprintw(2, 2, "       RESERVA DE ASSENTOS");
-        mvprintw(3, 2, "==================================");
+        
         mvprintw(5, 2, "Sessao: %s", titulo);
         mvprintw(6, 2, "Use as setas para navegar e Enter para selecionar.");
 
